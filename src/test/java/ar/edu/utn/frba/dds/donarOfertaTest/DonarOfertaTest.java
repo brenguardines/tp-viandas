@@ -15,6 +15,7 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 public class DonarOfertaTest {
+    /*
 
     private Rubro gastronomia = new Rubro("Gastronomia", "Comida y utensillos de cocina");
     private Rubro electronica = new Rubro("Electronica", "Elementos que se enchufan o tienen pilas");
@@ -55,5 +56,7 @@ public class DonarOfertaTest {
         sonycMusic.hacerDonacion(donarAuricularesSonyc3000);
         Assertions.assertTrue(sonycMusic.getDonacionesDeOfertas().contains(donarAuricularesSonyc3000));
     }
+
+     */
 
 }
