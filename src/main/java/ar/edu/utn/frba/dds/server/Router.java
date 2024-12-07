@@ -196,7 +196,7 @@ public class Router {
                     ctx.render("/tecnico/menuTecnico.hbs", model);},
                 RolDeUsuario.TECNICO);
 
-        app.get("/tecnico/solucionarIncidente", ServiceLocator.instanceOf(IncidenteController.class)::solucionar, RolDeUsuario.TECNICO);
+        //app.get("/tecnico/solucionarIncidente", ServiceLocator.instanceOf(IncidenteController.class)::solucionar, RolDeUsuario.TECNICO);
 
     }
 }
